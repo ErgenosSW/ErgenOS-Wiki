@@ -6,7 +6,8 @@ export const sections = [
   { slug: 'security', en: 'Security', pl: 'Bezpieczeństwo', pages: [
     ['index', 'Overview', 'Wprowadzenie'], ['secure-boot', 'Secure Boot', 'Secure Boot']] },
   { slug: 'recovery', en: 'Recovery', pl: 'Odzyskiwanie', pages: [
-    ['index', 'Overview', 'Wprowadzenie'], ['snapshots', 'Btrfs snapshots', 'Migawki Btrfs']] },
+    ['index', 'Overview', 'Wprowadzenie'], ['snapshots', 'Btrfs snapshots', 'Migawki Btrfs'],
+    ['bootloader', 'Bootloader recovery', 'Odzyskiwanie bootloadera']] },
   { slug: 'hardware', en: 'Hardware', pl: 'Sprzęt', pages: [
     ['index', 'Compatibility', 'Zgodność sprzętowa']] },
   { slug: 'troubleshooting', en: 'Troubleshooting', pl: 'Rozwiązywanie problemów', pages: [

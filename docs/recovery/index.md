@@ -8,6 +8,10 @@ The integrated recovery setup is enabled only for Btrfs installations. It combin
 
 Read [Btrfs snapshots](./snapshots) before relying on an older boot entry. A snapshot boot lets you inspect an earlier system state; it is not itself a completed rollback.
 
+If GRUB itself no longer starts, use [bootloader recovery](./bootloader) from the
+ErgenOS Live ISO. The workflow rebuilds the normal and Secure Boot paths while
+verifying that **ErgenOS Snapshots** remains available.
+
 ::: warning Keep a separate backup
 Snapshots on the system disk do not protect against losing that disk. Keep important data backed up separately.
 :::

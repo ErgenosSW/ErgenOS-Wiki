@@ -50,28 +50,15 @@ Your danger notice here.
 
 The first content pass describes the documented ErgenOS 1.1 baseline. Hardware coverage is limited; do not invent minimum requirements or copy unverified recovery commands. Installation and Secure Boot procedures are maintained here; the website keeps legacy redirects.
 
-## GitHub publication — owner runs these steps
+## Deployment
 
-No commit, push, remote creation or deployment has been performed by the assistant. The local repository starts on `main` with no commits. Review all files first.
+Pushes to `main` build and deploy the Wiki through GitHub Actions. Pull requests
+run the production build without publishing it. The public site is available at
+<https://ergenossw.github.io/ErgenOS-Wiki/>.
 
-1. On GitHub create an **empty public** repository named `ErgenOS-Wiki` under `ErgenosSW`. Do not prepopulate it with a README, license or gitignore. If it already exists, inspect it before proceeding; do not overwrite its history.
-2. In the local repository run:
-
-```sh
-git status --short
-git add .
-git commit -m "Create bilingual ErgenOS Wiki with VitePress"
-git remote add origin https://github.com/ErgenosSW/ErgenOS-Wiki.git
-git push -u origin main
-```
-
-3. In **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**.
-4. If the first deployment failed before Pages was enabled, rerun **Build and deploy Wiki** from Actions.
-5. Expected public URL after successful deployment: https://ergenossw.github.io/ErgenOS-Wiki/
-
-Future pushes to `main` build and deploy automatically. Pull requests only build; they do not deploy. `lastUpdated` needs commit history and will appear after commits exist. GitHub edit links become usable after publication.
-
-Deployment follows the [VitePress Pages guide](https://vitepress.dev/guide/deploy). The base is `/ErgenOS-Wiki/`; if the repository or domain changes, update the base, favicon URL, sitemap hostname and GitHub edit links together.
+Deployment follows the [VitePress Pages guide](https://vitepress.dev/guide/deploy).
+The base is `/ErgenOS-Wiki/`; if the repository or domain changes, update the
+base, favicon URL, sitemap hostname and GitHub edit links together.
 
 ## Licensing
 

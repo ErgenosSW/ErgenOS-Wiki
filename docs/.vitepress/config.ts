@@ -15,11 +15,13 @@ export default defineConfig({
       nav: [{ text: 'Guide', link: '/getting-started/' }, { text: 'Recovery', link: '/recovery/' }, { text: 'ErgenOS website', link: 'https://ergenossw.github.io/ErgenOS-Website/' }],
       sidebar: sidebar('en'),
       outline: { level: [2, 3], label: 'On this page' },
+      editLink: { pattern: `${repo}/edit/main/docs/:path`, text: 'Edit this page on GitHub' },
     } },
     pl: { label: 'Polski', lang: 'pl', description: 'Instalacja, administracja i odzyskiwanie systemu ErgenOS.', themeConfig: {
       nav: [{ text: 'Poradnik', link: '/pl/getting-started/' }, { text: 'Odzyskiwanie', link: '/pl/recovery/' }, { text: 'Strona ErgenOS', link: 'https://ergenossw.github.io/ErgenOS-Website/pl/' }],
       sidebar: sidebar('pl'),
       outline: { level: [2, 3], label: 'Na tej stronie' },
+      editLink: { pattern: `${repo}/edit/main/docs/:path`, text: 'Edytuj tę stronę na GitHubie' },
       docFooter: { prev: 'Poprzednia strona', next: 'Następna strona' },
       lastUpdated: { text: 'Ostatnia aktualizacja' },
       darkModeSwitchLabel: 'Wygląd', lightModeSwitchTitle: 'Włącz jasny motyw', darkModeSwitchTitle: 'Włącz ciemny motyw',

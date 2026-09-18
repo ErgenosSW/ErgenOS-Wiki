@@ -8,6 +8,11 @@ Zintegrowane odzyskiwanie jest włączane tylko przy instalacji na Btrfs. Łącz
 
 Przeczytaj [migawki Btrfs](./snapshots), zanim skorzystasz ze starszego wpisu rozruchowego. Uruchomienie migawki pozwala obejrzeć wcześniejszy stan systemu; samo w sobie nie kończy przywracania.
 
+Jeżeli sam GRUB przestał się uruchamiać, skorzystaj z [odzyskiwania
+bootloadera](./bootloader) w środowisku ErgenOS Live. Procedura odbudowuje zwykłą
+i podpisaną ścieżkę rozruchową oraz sprawdza, czy menu **ErgenOS Snapshots** nadal
+jest dostępne.
+
 ::: warning Zachowaj osobny backup
 Migawki na dysku systemowym nie chronią przed utratą tego dysku. Ważne dane kopiuj osobno.
 :::
