@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Install, manage and recover your ErgenOS system.',
   base: '/ErgenOS-Wiki/',
   cleanUrls: false,
-  appearance: true,
+  appearance: 'dark',
   lastUpdated: true,
   head: [['link', { rel: 'icon', type: 'image/png', href: '/ErgenOS-Wiki/ergenos-logo.png' }]],
   sitemap: { hostname: 'https://ergenossw.github.io/ErgenOS-Wiki/' },
