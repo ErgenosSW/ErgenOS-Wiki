@@ -10,7 +10,9 @@ export const sections = [
   { slug: 'hardware', en: 'Hardware', pl: 'Sprzęt', pages: [
     ['index', 'Compatibility', 'Zgodność sprzętowa']] },
   { slug: 'troubleshooting', en: 'Troubleshooting', pl: 'Rozwiązywanie problemów', pages: [
-    ['index', 'Start here', 'Zacznij tutaj'], ['reporting-issues', 'Report a problem', 'Zgłaszanie problemów']] }
+    ['index', 'Start here', 'Zacznij tutaj'], ['reporting-issues', 'Report a problem', 'Zgłaszanie problemów']] },
+  { slug: 'project', en: 'Project', pl: 'Projekt', pages: [
+    ['release-checklist', 'ISO release checklist', 'Checklista wydania ISO']] }
 ] as const
 export function sidebar(locale: 'en' | 'pl') {
   const prefix = locale === 'pl' ? '/pl/' : '/'

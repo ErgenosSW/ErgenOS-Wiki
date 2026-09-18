@@ -29,4 +29,8 @@ Remove passwords, tokens and personal information that are not needed to explain
 
 ## Where to report
 
-Report distribution issues in [ErgenOS-Linux issues](https://github.com/ErgenosSW/ErgenOS-Linux/issues). Documentation corrections belong in [ErgenOS-Wiki](https://github.com/ErgenosSW/ErgenOS-Wiki) once the repository is published. The edit link at the bottom of each article targets that article's language and source file.
+- [Report an ErgenOS bug](https://github.com/ErgenosSW/ErgenOS-Linux/issues/new?template=01-bug-report.yml).
+- [Suggest a feature](https://github.com/ErgenosSW/ErgenOS-Linux/issues/new?template=02-feature-request.yml).
+- [Browse existing issues](https://github.com/ErgenosSW/ErgenOS-Linux/issues) before creating a new one.
+
+Forms accept English and Polish answers. Report documentation corrections in [ErgenOS-Wiki issues](https://github.com/ErgenosSW/ErgenOS-Wiki/issues); the maintainer applies the changes.

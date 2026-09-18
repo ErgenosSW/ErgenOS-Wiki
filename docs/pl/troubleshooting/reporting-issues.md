@@ -29,4 +29,8 @@ Usuń hasła, tokeny i dane osobowe niepotrzebne do wyjaśnienia problemu.
 
 ## Gdzie zgłaszać
 
-Problemy dystrybucji zgłaszaj w [ErgenOS-Linux issues](https://github.com/ErgenosSW/ErgenOS-Linux/issues). Poprawki dokumentacji należą do [ErgenOS-Wiki](https://github.com/ErgenosSW/ErgenOS-Wiki), gdy repozytorium zostanie opublikowane. Odnośnik edycji pod artykułem prowadzi do pliku źródłowego w jego języku.
+- [Zgłoś błąd ErgenOS](https://github.com/ErgenosSW/ErgenOS-Linux/issues/new?template=01-bug-report.yml).
+- [Zaproponuj funkcję](https://github.com/ErgenosSW/ErgenOS-Linux/issues/new?template=02-feature-request.yml).
+- [Przejrzyj istniejące zgłoszenia](https://github.com/ErgenosSW/ErgenOS-Linux/issues), zanim dodasz nowe.
+
+Formularze przyjmują odpowiedzi po polsku i angielsku. Poprawki dokumentacji zgłaszaj w [ErgenOS-Wiki issues](https://github.com/ErgenosSW/ErgenOS-Wiki/issues); opiekun projektu wprowadza zmiany.
