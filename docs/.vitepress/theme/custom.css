@@ -1,0 +1,37 @@
+/* ErgenOS palette, adapted from the existing website for both color modes. */
+:root {
+  --vp-c-brand-1: #0068b8;
+  --vp-c-brand-2: #007aca;
+  --vp-c-brand-3: #0068b8;
+  --vp-c-brand-soft: rgba(10, 167, 255, .12);
+  --vp-c-bg: #fbfdff;
+  --vp-c-bg-alt: #f0f5fa;
+  --vp-c-bg-soft: #edf4fb;
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, sans-serif;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0079be, #0068ff);
+  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(10,167,255,.23), transparent 65%);
+  --vp-home-hero-image-filter: blur(35px);
+}
+.dark {
+  --vp-c-brand-1: #54c3ff;
+  --vp-c-brand-2: #30b5ff;
+  --vp-c-brand-3: #0068b8;
+  --vp-c-bg: #030a14;
+  --vp-c-bg-alt: #07111f;
+  --vp-c-bg-soft: #0b1b2d;
+  --vp-c-text-1: #eaf3ff;
+  --vp-c-text-2: #a9bdd3;
+  --vp-c-divider: #243950;
+  --vp-home-hero-name-background: linear-gradient(120deg, #54c3ff, #3388ff);
+}
+.VPHero .image-src { max-width: 280px; max-height: 280px; }
+.VPFeature { border-radius: 16px; }
+.VPFeature:hover { border-color: var(--vp-c-brand-1); }
+.breadcrumbs { margin-bottom: 24px; font-size: 13px; color: var(--vp-c-text-2); }
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+.breadcrumbs li { display: inline-flex; align-items: center; gap: 8px; }
+.breadcrumbs a:hover { color: var(--vp-c-brand-1); text-decoration: underline; }
+.breadcrumbs [aria-current] { color: var(--vp-c-text-1); }
+.separator { opacity: .5; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 4px; }

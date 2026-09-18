@@ -1,0 +1,20 @@
+{
+  "name": "ergenos-wiki",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vue": "^3.5.0"
+  }
+}
