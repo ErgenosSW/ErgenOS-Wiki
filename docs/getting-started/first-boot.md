@@ -14,6 +14,10 @@ Open ErgenPac to install system updates. ErgenOS uses the rolling release model 
 - **ErgenCTL** includes system management and recovery tools.
 - **ErgenPac** handles software and system updates.
 
+## Check drivers
+
+Open Driver Manager in ErgenPac to detect your processor and graphics hardware and install missing recommended packages.
+
 ## Check recovery
 
 If your root filesystem uses Btrfs, learn about [Snapper and snapshot boot](../recovery/snapshots). Confirm your backup plan before relying on recovery features.

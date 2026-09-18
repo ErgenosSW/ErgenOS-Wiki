@@ -48,7 +48,7 @@ Your danger notice here.
 :::
 ```
 
-The first content pass describes the documented ErgenOS 1.1 baseline. Hardware coverage is limited; do not invent minimum requirements or copy unverified recovery commands. Secure Boot links to the maintained official procedure.
+The first content pass describes the documented ErgenOS 1.1 baseline. Hardware coverage is limited; do not invent minimum requirements or copy unverified recovery commands. Installation and Secure Boot procedures are maintained here; the website keeps legacy redirects.
 
 ## GitHub publication — owner runs these steps
 

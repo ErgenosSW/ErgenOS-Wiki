@@ -10,7 +10,7 @@ These results describe tested configurations, not universal hardware support. Lo
 
 ## Before installation
 
-Use the live environment to check display output, keyboard, network and audio. Check the [known limitations](https://ergenossw.github.io/ErgenOS-Website/known-limitations.html) for the release you intend to install.
+Use the live environment to check display output, keyboard, network and audio. Check the [known limitations](/getting-started/known-limitations) for the release you intend to install.
 
 ## Collect useful details
 

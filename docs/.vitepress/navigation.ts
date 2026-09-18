@@ -1,6 +1,6 @@
 export const sections = [
   { slug: 'getting-started', en: 'Getting Started', pl: 'Pierwsze kroki', pages: [
-    ['index', 'Overview', 'Wprowadzenie'], ['installation', 'Installation', 'Instalacja'], ['first-boot', 'First boot', 'Pierwsze uruchomienie']] },
+    ['index', 'Overview', 'Wprowadzenie'], ['installation', 'Installation', 'Instalacja'], ['first-boot', 'First boot', 'Pierwsze uruchomienie'], ['known-limitations', 'Known limitations', 'Znane ograniczenia']] },
   { slug: 'system-administration', en: 'System Administration', pl: 'Administracja systemem', pages: [
     ['index', 'Overview', 'Wprowadzenie'], ['updates', 'Updates & software', 'Aktualizacje i oprogramowanie']] },
   { slug: 'security', en: 'Security', pl: 'Bezpieczeństwo', pages: [

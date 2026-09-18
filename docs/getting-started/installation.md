@@ -4,9 +4,26 @@
 
 Download the image and its matching SHA-256 checksum from the [official release](https://github.com/ErgenosSW/ErgenOS-Linux/releases). If the image is split into parts, follow that release's reassembly instructions before checking the complete ISO.
 
+### ErgenOS 1.1 image
+
+These commands apply only to `ergenos-1.1.0-x86_64.iso` (2.51 GiB). Use the matching checksum for other releases.
+
+Verify the complete downloaded image:
+
+```bash
+echo "460c2ab349681cef4922ebba35b180b24f7a17e7182dbf23cc7c99b13b1fdcce  ergenos-1.1.0-x86_64.iso" | sha256sum -c -
+```
+
+If you downloaded the ISO parts and `SHA256SUMS-1.1.0` from the GitHub release, combine the parts in a directory containing only parts from that release, then verify:
+
+```bash
+cat ergenos-1.1.0-x86_64.iso.part-* > ergenos-1.1.0-x86_64.iso
+sha256sum -c SHA256SUMS-1.1.0
+```
+
 ## Prepare the USB drive
 
-Use GNOME Disks on Linux, or the image-writing tool described in the [official installation guide](https://ergenossw.github.io/ErgenOS-Website/installation.html). Select the ISO and verify the target USB device.
+Use GNOME Disks on Linux, or Rufus or Etcher on Windows. Select the ISO and verify the target USB device.
 
 ::: danger The selected USB drive will be erased
 Copy any files you need from that USB drive before writing the image. Check the device name and capacity carefully.

@@ -14,6 +14,10 @@ Otwórz ErgenPac i zainstaluj aktualizacje systemu. ErgenOS korzysta z modelu ro
 - **ErgenCTL** zawiera narzędzia administracji i odzyskiwania.
 - **ErgenPac** służy do obsługi oprogramowania i aktualizacji.
 
+## Sprawdź sterowniki
+
+Otwórz Driver Manager w ErgenPac, aby wykryć procesor i kartę graficzną oraz zainstalować brakujące zalecane pakiety.
+
 ## Sprawdź odzyskiwanie
 
 Jeżeli główny system plików to Btrfs, poznaj [Snapper i rozruch migawki](../recovery/snapshots). Ustal sposób wykonywania kopii zapasowych, zanim polegasz na funkcjach odzyskiwania.

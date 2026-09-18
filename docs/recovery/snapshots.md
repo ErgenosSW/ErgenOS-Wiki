@@ -2,7 +2,7 @@
 
 ## What creates the recovery points
 
-On a Btrfs installation, Snapper manages snapshots of the root filesystem. snap-pac creates snapshots before and after Pacman transactions. grub-btrfs adds discovered snapshots to the GRUB menu.
+On a Btrfs installation, Snapper manages snapshots of the root filesystem. snap-pac creates snapshots before and after Pacman transactions. grub-btrfs adds discovered snapshots to the GRUB menu. Its daemon watches the complete Snapper tree so new recovery points are reflected automatically.
 
 ## What snapshot boot means
 

@@ -2,7 +2,7 @@
 
 ## Co tworzy punkty odzyskiwania
 
-W instalacji Btrfs Snapper zarządza migawkami głównego systemu plików. snap-pac tworzy je przed transakcjami Pacmana i po nich. grub-btrfs dodaje wykryte migawki do menu GRUB.
+W instalacji Btrfs Snapper zarządza migawkami głównego systemu plików. snap-pac tworzy je przed transakcjami Pacmana i po nich. grub-btrfs dodaje wykryte migawki do menu GRUB. Jego usługa obserwuje całe drzewo Snappera, aby nowe punkty odzyskiwania pojawiały się automatycznie.
 
 ## Co oznacza uruchomienie migawki
 

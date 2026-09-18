@@ -10,7 +10,7 @@ Wyniki dotyczą sprawdzonych konfiguracji, a nie uniwersalnej obsługi sprzętu.
 
 ## Przed instalacją
 
-W środowisku live sprawdź obraz, klawiaturę, sieć i dźwięk. Zapoznaj się ze [znanymi ograniczeniami](https://ergenossw.github.io/ErgenOS-Website/pl/known-limitations.html) wybranego wydania.
+W środowisku live sprawdź obraz, klawiaturę, sieć i dźwięk. Zapoznaj się ze [znanymi ograniczeniami](/pl/getting-started/known-limitations) wybranego wydania.
 
 ## Zbierz przydatne informacje
 
