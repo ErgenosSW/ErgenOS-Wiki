@@ -19,3 +19,7 @@ Przy instalacji na Btrfs snap-pac tworzy migawki przed transakcjami Pacmana i po
 ## Gdy aktualizacja się nie uda
 
 Zapisz dokładny błąd i unikaj dokładania niezwiązanych zmian. Przejdź do [rozwiązywania problemów](../troubleshooting/) i podaj w zgłoszeniu wybrane źródło oprogramowania.
+
+## Kontrola po aktualizacji
+
+ErgenPac uruchamia ErgenCTL verify-update po aktualizacji systemu i natywnych instalacjach Gaming. Raport sprawdza stan rozruchu, migawek, modułów i usług oraz wskazuje potrzebę restartu. Diagnostyka nie zastępuje migawek snap-pac. [Instalowanie narzędzi dla graczy](gaming).

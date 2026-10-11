@@ -19,3 +19,7 @@ On Btrfs installations, snap-pac creates pre and post snapshots around Pacman tr
 ## If an update fails
 
 Save the exact error and avoid stacking unrelated changes on top of the failure. Continue with [troubleshooting](../troubleshooting/), including the selected software source in your report.
+
+## Post-update verification
+
+ErgenPac runs ErgenCTL verify-update after system updates and native Gaming installations. The report checks boot, snapshot, module and service state and provides reboot guidance. Diagnostics do not replace snap-pac snapshots. See [installing gaming tools](gaming).

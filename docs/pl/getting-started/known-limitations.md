@@ -1,10 +1,10 @@
 # Znane ograniczenia
 
-Dotyczy ErgenOS 1.1.
+Dotyczy ErgenOS 1.2; [status obrazu i zakres testów](whats-new).
 
 ## Secure Boot
 
-Po instalacji ErgenCTL przeprowadza przez eksperymentalną konfigurację z shim podpisanym przez Microsoft i własnym kluczem MOK. Samo ISO ErgenOS 1.1 nadal wymaga wyłączenia Secure Boot. Procedurę sprawdziliśmy na QEMU/OVMF i Lenovo ThinkPadzie; zobacz [poradnik konfiguracji](/pl/security/secure-boot).
+Po instalacji ErgenCTL przeprowadza przez eksperymentalną konfigurację z shim podpisanym przez Microsoft i własnym kluczem MOK. Samo ISO ErgenOS 1.2 nadal wymaga wyłączenia Secure Boot. Procedurę sprawdziliśmy na QEMU/OVMF i Lenovo ThinkPadzie; zobacz [poradnik konfiguracji](/pl/security/secure-boot).
 
 ## Przetestowany sprzęt
 

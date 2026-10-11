@@ -1,10 +1,10 @@
 # Known limitations
 
-Applies to ErgenOS 1.1.
+Applies to ErgenOS 1.2; see [image status and test scope](whats-new).
 
 ## Secure Boot
 
-ErgenCTL provides guided experimental setup after installation using Microsoft-signed shim and a Machine Owner Key. The ErgenOS 1.1 ISO itself still requires Secure Boot to be disabled. The workflow has been validated with QEMU/OVMF and one Lenovo ThinkPad; see the [setup guide](/security/secure-boot).
+ErgenCTL provides guided experimental setup after installation using Microsoft-signed shim and a Machine Owner Key. The ErgenOS 1.2 ISO itself still requires Secure Boot to be disabled. The workflow has been validated with QEMU/OVMF and one Lenovo ThinkPad; see the [setup guide](/security/secure-boot).
 
 ## Hardware coverage
 

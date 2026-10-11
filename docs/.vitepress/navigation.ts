@@ -1,8 +1,8 @@
 export const sections = [
   { slug: 'getting-started', en: 'Getting Started', pl: 'Pierwsze kroki', pages: [
-    ['index', 'Overview', 'Wprowadzenie'], ['installation', 'Installation', 'Instalacja'], ['first-boot', 'First boot', 'Pierwsze uruchomienie'], ['known-limitations', 'Known limitations', 'Znane ograniczenia']] },
+    ['index', 'Overview', 'Wprowadzenie'], ['installation', 'Installation', 'Instalacja'], ['first-boot', 'First boot', 'Pierwsze uruchomienie'], ['whats-new', 'New in 1.2', 'Nowości w 1.2'], ['known-limitations', 'Known limitations', 'Znane ograniczenia']] },
   { slug: 'system-administration', en: 'System Administration', pl: 'Administracja systemem', pages: [
-    ['index', 'Overview', 'Wprowadzenie'], ['updates', 'Updates & software', 'Aktualizacje i oprogramowanie']] },
+    ['index', 'Overview', 'Wprowadzenie'], ['updates', 'Updates & software', 'Aktualizacje i oprogramowanie'], ['gaming', 'Gaming', 'Gaming']] },
   { slug: 'security', en: 'Security', pl: 'Bezpieczeństwo', pages: [
     ['index', 'Overview', 'Wprowadzenie'], ['secure-boot', 'Secure Boot', 'Secure Boot']] },
   { slug: 'recovery', en: 'Recovery', pl: 'Odzyskiwanie', pages: [
