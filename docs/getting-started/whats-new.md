@@ -1,6 +1,6 @@
 # What's new in ErgenOS 1.2
 
-ISO 1.2.0 was rebuilt and accepted in local VM testing. Public image publication is being prepared; the website download still points to ISO 1.1.
+ISO 1.2.0 was rebuilt and accepted in local VM testing. The complete ISO is available on [MediaFire](https://www.mediafire.com/file/5pflsx05qjzptld/ergenos-1.2.0-x86_64.iso/file). The [GitHub release](https://github.com/ErgenosSW/ErgenOS-Linux/releases/tag/v1.2.0) contains two ISO parts, checksums and assembly instructions.
 
 - Default ErgenOS theme for GNOME Shell and GTK3/GTK4/libadwaita, including Nautilus.
 - Redesigned ErgenCTL, ErgenPac and Welcome interfaces.

@@ -48,7 +48,7 @@ Your danger notice here.
 :::
 ```
 
-Content now covers the locally accepted ErgenOS 1.2 image, optional Gaming installation, default theme and post-update verification in both languages. Public ISO publication is pending; website download metadata remains at 1.1. See [CHANGELOG.md](CHANGELOG.md). Hardware coverage is limited; do not invent minimum requirements or copy unverified recovery commands. Installation and Secure Boot procedures are maintained here; the website keeps legacy redirects.
+Content now covers the locally accepted ErgenOS 1.2 image, optional Gaming installation, default theme and post-update verification in both languages. ISO 1.2 is published on MediaFire and GitHub; website download metadata is updated. See [CHANGELOG.md](CHANGELOG.md). Hardware coverage is limited; do not invent minimum requirements or copy unverified recovery commands. Installation and Secure Boot procedures are maintained here; the website keeps legacy redirects.
 
 ## Deployment
 

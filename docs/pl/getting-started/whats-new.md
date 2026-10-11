@@ -1,6 +1,6 @@
 # Zmiany w ErgenOS 1.2
 
-ISO 1.2.0 zostało przebudowane i zaakceptowane w lokalnych testach VM. Publikacja publicznego obrazu jest w toku przygotowań; link pobierania na stronie nadal wskazuje ISO 1.1.
+ISO 1.2.0 zostało przebudowane i zaakceptowane w lokalnych testach VM. Pełne ISO jest dostępne na [MediaFire](https://www.mediafire.com/file/5pflsx05qjzptld/ergenos-1.2.0-x86_64.iso/file). [Wydanie GitHub](https://github.com/ErgenosSW/ErgenOS-Linux/releases/tag/v1.2.0) zawiera dwie części ISO, sumy kontrolne i instrukcję składania.
 
 - Domyślny motyw ErgenOS dla GNOME Shell oraz GTK3 i GTK4/libadwaita, w tym Nautilusa.
 - Odświeżone interfejsy ErgenCTL, ErgenPac i Welcome.
