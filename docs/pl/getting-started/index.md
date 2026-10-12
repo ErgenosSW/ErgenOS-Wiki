@@ -10,7 +10,7 @@ ErgenOS to niezależna dystrybucja oparta na Arch Linux, ze środowiskiem GNOME,
 
 ## Zakres poradnika
 
-Pierwsza wersja wiki opisuje ErgenOS 1.1 na podstawie dokumentacji repozytorium projektu. Zmiany dotyczące konkretnego wydania sprawdzaj w [informacjach o wydaniach](https://github.com/ErgenosSW/ErgenOS-Linux/releases).
+Wiki opisuje opublikowane wydanie ErgenOS 1.2 na podstawie dokumentacji repozytorium projektu. Zmiany dotyczące tego wydania sprawdzaj w [informacjach o ErgenOS 1.2](https://github.com/ErgenosSW/ErgenOS-Linux/releases/tag/v1.2.0).
 
 ::: tip Oficjalny obraz
 Korzystaj z odnośników na [stronie ErgenOS](https://ergenossw.github.io/ErgenOS-Website/pl/). Porównaj sumę kontrolną z sumą dla dokładnie tego wydania.

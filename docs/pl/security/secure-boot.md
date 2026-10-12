@@ -5,7 +5,7 @@ Obsługa Secure Boot po instalacji pozostaje eksperymentalna.
 :::
 Skonfiguruj Secure Boot za pomocą shim podpisanego przez Microsoft i własnego klucza MOK — bez wymiany kluczy zapisanych w UEFI.
 
-**Zanim zaczniesz:** instalacyjne ISO ErgenOS 1.1 nie uruchamia się jeszcze przy włączonym Secure Boot. Najpierw zainstaluj system z wyłączoną funkcją, a dopiero później wykonaj poniższe kroki.
+**Zanim zaczniesz:** instalacyjne ISO ErgenOS 1.2 nie uruchamia się jeszcze przy włączonym Secure Boot. Najpierw zainstaluj system z wyłączoną funkcją, a dopiero później wykonaj poniższe kroki.
 
 **Na czym to sprawdziliśmy:** procedura działa na QEMU/OVMF oraz fizycznym Lenovo ThinkPadzie. Ustawienia UEFI różnią się w zależności od producenta, dlatego przed rozpoczęciem zabezpiecz ważne dane.
 

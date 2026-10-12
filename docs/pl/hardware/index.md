@@ -2,7 +2,7 @@
 
 ## Opisane testy
 
-README projektu ErgenOS 1.1 opisuje testy w QEMU/KVM w trybie UEFI i na Lenovo ThinkPad E14 Gen 2. Wśród sprawdzonych funkcji wymienia również Wi-Fi, Bluetooth, dźwięk Bluetooth, uśpienie i sprzętowe klawisze funkcyjne.
+ErgenOS został przetestowany w QEMU/KVM w trybie UEFI oraz na Lenovo ThinkPad E14 Gen 2. Na ThinkPadzie sprawdzono Wi-Fi, Bluetooth, dźwięk Bluetooth, uśpienie, sprzętowe klawisze funkcyjne i konfigurację Secure Boot po instalacji. Dla ErgenOS 1.2 zaakceptowano również domyślny motyw oraz obsługę zintegrowanej grafiki AMD i dedykowanej karty NVIDIA na istniejącej instalacji Acer Nitro V 16S AI. Nie była to świeża instalacja ani nowy test NVIDIA z Secure Boot na tym laptopie.
 
 ::: warning Ograniczony zakres
 Wyniki dotyczą sprawdzonych konfiguracji, a nie uniwersalnej obsługi sprzętu. Zakres testów sprzętu i długoterminowych aktualizacji pozostaje ograniczony.

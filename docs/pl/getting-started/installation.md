@@ -2,24 +2,27 @@
 
 ## Pobierz i sprawdź obraz
 
-Pobierz obraz i odpowiadającą mu sumę SHA-256 z [oficjalnego wydania](https://github.com/ErgenosSW/ErgenOS-Linux/releases). Jeśli obraz jest podzielony na części, połącz je zgodnie z instrukcją tego wydania, a następnie sprawdź pełny plik ISO.
+Pobierz kompletny obraz z [MediaFire](https://www.mediafire.com/file/5pflsx05qjzptld/ergenos-1.2.0-x86_64.iso/file) albo pobierz obie części i pliki sum kontrolnych z [oficjalnego wydania na GitHubie](https://github.com/ErgenosSW/ErgenOS-Linux/releases/tag/v1.2.0).
 
-### Obraz ErgenOS 1.1
+### Obraz ErgenOS 1.2
 
-Poniższe polecenia dotyczą wyłącznie obrazu `ergenos-1.1.0-x86_64.iso` (2,51 GiB). Dla innych wydań użyj ich własnej sumy kontrolnej.
+Poniższe polecenia dotyczą wyłącznie obrazu `ergenos-1.2.0-x86_64.iso` o rozmiarze 2 751 954 944 bajtów (2,56 GiB). Dla innych wydań użyj ich własnej sumy kontrolnej.
 
 Sprawdź kompletny pobrany obraz:
 
 ```bash
-echo "460c2ab349681cef4922ebba35b180b24f7a17e7182dbf23cc7c99b13b1fdcce  ergenos-1.1.0-x86_64.iso" | sha256sum -c -
+echo "c152f4881a2bd0c3a8921f2139a2e3a538cd6cd49160e90cac6650df2a47599b  ergenos-1.2.0-x86_64.iso" | sha256sum -c -
 ```
 
-Jeśli pobrano części ISO i `SHA256SUMS-1.1.0` z wydania GitHub, połącz części w katalogu zawierającym wyłącznie części tego wydania, a następnie sprawdź sumę:
+Jeżeli pobierasz podzielone zasoby z GitHuba, umieść `part01`, `part02`, `PARTS-SHA256SUMS` i `ISO-SHA256SUMS` w jednym katalogu. Sprawdź części, złóż ISO w odpowiedniej kolejności i sprawdź wynik:
 
 ```bash
-cat ergenos-1.1.0-x86_64.iso.part-* > ergenos-1.1.0-x86_64.iso
-sha256sum -c SHA256SUMS-1.1.0
+sha256sum -c PARTS-SHA256SUMS
+cat ergenos-1.2.0-x86_64.iso.part01 ergenos-1.2.0-x86_64.iso.part02 > ergenos-1.2.0-x86_64.iso
+sha256sum -c ISO-SHA256SUMS
 ```
+
+Nie zapisuj osobno żadnej części na pendrivie. Automatyczne archiwa kodu źródłowego tworzone przez GitHub nie są obrazami instalacyjnymi.
 
 ## Przygotuj pendrive
 
@@ -31,7 +34,7 @@ Skopiuj potrzebne pliki przed zapisaniem obrazu. Dokładnie sprawdź nazwę i po
 
 ## Uruchom środowisko live
 
-W menu startowym firmware wybierz wpis UEFI pendrive'a. Obraz ErgenOS 1.1 wymaga wyłączenia Secure Boot. Obsługę po instalacji opisuje [poradnik Secure Boot](../security/secure-boot).
+W menu startowym firmware wybierz wpis UEFI pendrive'a. Obraz ErgenOS 1.2 wymaga wyłączenia Secure Boot. Obsługę po instalacji opisuje [poradnik Secure Boot](../security/secure-boot).
 
 ## Uruchom Calamares
 

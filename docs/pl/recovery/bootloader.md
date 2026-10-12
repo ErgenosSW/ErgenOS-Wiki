@@ -6,7 +6,7 @@ menu migawek Btrfs oraz odtwarza wpis firmware **ErgenOS Secure Boot**, jeżeli 
 funkcja była skonfigurowana.
 
 ::: warning Uruchom Live ISO z wyłączonym Secure Boot
-Nośnik instalacyjny ErgenOS 1.1 nie uruchamia się przy włączonym Secure Boot.
+Nośnik instalacyjny ErgenOS 1.2 nie uruchamia się przy włączonym Secure Boot.
 Wyłącz tę funkcję tymczasowo w firmware. Klucze MOK zainstalowanego systemu
 pozostaną niezmienione.
 :::

@@ -6,7 +6,7 @@ menu and restores the **ErgenOS Secure Boot** firmware entry when Secure Boot wa
 configured.
 
 ::: warning Boot the Live ISO with Secure Boot disabled
-ErgenOS 1.1 installation media does not boot with Secure Boot enabled. Disable
+ErgenOS 1.2 installation media does not boot with Secure Boot enabled. Disable
 it temporarily in firmware. The installed system's MOK keys remain unchanged.
 :::
 

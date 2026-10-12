@@ -10,4 +10,4 @@ Use sources you understand and keep your system updated. The installer exposes o
 
 ## Secure Boot
 
-ErgenOS 1.1 has experimental post-install support. The installation ISO itself requires Secure Boot to be disabled. Read the [Secure Boot guide](./secure-boot) before making firmware changes.
+ErgenOS 1.2 has experimental post-install support. The installation ISO itself requires Secure Boot to be disabled. Read the [Secure Boot guide](./secure-boot) before making firmware changes.

@@ -2,24 +2,27 @@
 
 ## Download and verify
 
-Download the image and its matching SHA-256 checksum from the [official release](https://github.com/ErgenosSW/ErgenOS-Linux/releases). If the image is split into parts, follow that release's reassembly instructions before checking the complete ISO.
+Download the complete image from [MediaFire](https://www.mediafire.com/file/5pflsx05qjzptld/ergenos-1.2.0-x86_64.iso/file), or download both parts and checksum files from the [official GitHub release](https://github.com/ErgenosSW/ErgenOS-Linux/releases/tag/v1.2.0).
 
-### ErgenOS 1.1 image
+### ErgenOS 1.2 image
 
-These commands apply only to `ergenos-1.1.0-x86_64.iso` (2.51 GiB). Use the matching checksum for other releases.
+These commands apply only to `ergenos-1.2.0-x86_64.iso`, which is 2,751,954,944 bytes (2.56 GiB). Use the matching checksum for other releases.
 
 Verify the complete downloaded image:
 
 ```bash
-echo "460c2ab349681cef4922ebba35b180b24f7a17e7182dbf23cc7c99b13b1fdcce  ergenos-1.1.0-x86_64.iso" | sha256sum -c -
+echo "c152f4881a2bd0c3a8921f2139a2e3a538cd6cd49160e90cac6650df2a47599b  ergenos-1.2.0-x86_64.iso" | sha256sum -c -
 ```
 
-If you downloaded the ISO parts and `SHA256SUMS-1.1.0` from the GitHub release, combine the parts in a directory containing only parts from that release, then verify:
+If you downloaded the split assets from GitHub, place `part01`, `part02`, `PARTS-SHA256SUMS` and `ISO-SHA256SUMS` in one directory. Verify the parts, assemble the ISO in order and verify the result:
 
 ```bash
-cat ergenos-1.1.0-x86_64.iso.part-* > ergenos-1.1.0-x86_64.iso
-sha256sum -c SHA256SUMS-1.1.0
+sha256sum -c PARTS-SHA256SUMS
+cat ergenos-1.2.0-x86_64.iso.part01 ergenos-1.2.0-x86_64.iso.part02 > ergenos-1.2.0-x86_64.iso
+sha256sum -c ISO-SHA256SUMS
 ```
+
+Do not flash either part separately. GitHub's automatically generated source-code archives are not installation images.
 
 ## Prepare the USB drive
 
@@ -31,7 +34,7 @@ Copy any files you need from that USB drive before writing the image. Check the 
 
 ## Boot the live environment
 
-Select the USB drive's UEFI entry in your firmware boot menu. The ErgenOS 1.1 ISO requires Secure Boot to be disabled. Post-install support is described in [Secure Boot](../security/secure-boot).
+Select the USB drive's UEFI entry in your firmware boot menu. The ErgenOS 1.2 ISO requires Secure Boot to be disabled. Post-install support is described in [Secure Boot](../security/secure-boot).
 
 ## Run Calamares
 

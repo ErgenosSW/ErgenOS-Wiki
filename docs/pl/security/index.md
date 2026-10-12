@@ -10,4 +10,4 @@ Korzystaj ze źródeł, których zasady rozumiesz, i aktualizuj system. Opcjonal
 
 ## Secure Boot
 
-ErgenOS 1.1 ma eksperymentalną obsługę po instalacji. Sam obraz instalacyjny wymaga wyłączenia Secure Boot. Przed zmianą ustawień firmware przeczytaj [poradnik Secure Boot](./secure-boot).
+ErgenOS 1.2 ma eksperymentalną obsługę po instalacji. Sam obraz instalacyjny wymaga wyłączenia Secure Boot. Przed zmianą ustawień firmware przeczytaj [poradnik Secure Boot](./secure-boot).

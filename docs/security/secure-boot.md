@@ -5,7 +5,7 @@ Post-install Secure Boot support remains experimental.
 :::
 ErgenOS can use Microsoft-signed shim and your own Machine Owner Key without replacing the firmware keys.
 
-**Before you begin:** the ErgenOS 1.1 installation ISO does not currently boot with Secure Boot enabled. Install ErgenOS normally with Secure Boot disabled, then follow this guide from the installed system.
+**Before you begin:** the ErgenOS 1.2 installation ISO does not currently boot with Secure Boot enabled. Install ErgenOS normally with Secure Boot disabled, then follow this guide from the installed system.
 
 **Test coverage:** this workflow has been validated with QEMU/OVMF and on a physical Lenovo ThinkPad. Firmware interfaces differ between manufacturers, so keep your firmware recovery options and important data available.
 
